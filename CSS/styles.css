@@ -922,11 +922,13 @@ img {
 
 .close-modal:hover {
   fill: var(--accent-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus {
   border-color: var(--accent-color);
   outline: none;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-modal {
@@ -964,17 +966,20 @@ img {
 .comment:focus {
   border-color: var(--accent-color);
   outline: transparent;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:hover + .icon-modal,
 .form-input:focus + .icon-modal {
   fill: var(--accent-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:hover,
 .form-input:focus {
   border-color: var(--accent-color);
   outline: transparent;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-modal {
@@ -1055,15 +1060,3 @@ img {
   text-decoration: underline;
   font-weight: normal;
 }
-
-/* .form-field:focus-within > .icon {
-  background-color: var(--accent-color);
-} */
-
-/* .form-field:focus-within > .form-label {
-  transform: translateY(-50px);EE
-} */
-
-/* .form-input:not(:placeholder-shown) + .form-label {
-  transform: translateY(-50px);
-} */
