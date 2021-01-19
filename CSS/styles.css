@@ -681,6 +681,68 @@ img {
   margin-right: 10px;
 }
 
+.futter-sub {
+  margin-left: 93px;
+}
+
+.form-input-footer {
+  margin-right: 12px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.button-sub {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  font-family: var(--primary-text-color);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  background: #2196f3;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons-sub {
+  vertical-align: middle;
+  fill: var(--primary-white-color);
+  /* margin-left: 10px;
+  margin-top: 13px; */
+}
+
+/* .button-sub::after {
+  display: inline-block;
+  content: "";
+  height: 24px;
+  width: 24px;
+  background-image: url(../images/icons/icon-send/icon-send.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
 /* Portfolio */
 
 .buttons-filter-list {
@@ -819,6 +881,8 @@ img {
   position: relative;
   padding: 40px;
   width: 528px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .modal-text {
@@ -936,6 +1000,7 @@ img {
 
   background: #2196f3;
   border: 1px solid var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
 }
