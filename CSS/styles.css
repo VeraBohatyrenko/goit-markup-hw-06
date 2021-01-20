@@ -886,11 +886,13 @@ img {
 
 .form-field {
   position: relative;
+  margin-top: 4px;
 }
 
 .form-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 
 .form-label {
@@ -904,8 +906,6 @@ img {
 .form-input {
   width: 100%;
   height: 40px;
-  margin-top: 4px;
-  margin-bottom: 10px;
   padding: 0px 0px 0px 42px;
   font: inherit;
   border: 1px solid rgba(33, 33, 33, 0.2);
